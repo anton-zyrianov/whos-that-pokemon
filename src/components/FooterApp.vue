@@ -2,7 +2,7 @@
    <div class="footer">
       <p>© 2022 Anton Zyrianov</p>
       <div class="footer-rrss">
-         <a href="https://github.com/anton-zyrianov/whos-that-pokemon"><img src="github.gif" alt="GitHub"></a>
+         <a href="https://github.com/anton-zyrianov/whos-that-pokemon"><img src="https://raw.githubusercontent.com/gist/theAdityaNVS/f5b585d1082da2dffffea32434f37956/raw/7f9552d0a179b4f84059259fa878199e369b069c/GitHub-logo.gif" alt="GitHub"></a>
          <a href="https://www.linkedin.com/in/anton-zyrianov/"><img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/0baeb31aedf8e64.png" alt=""></a>
       </div>
    </div>
