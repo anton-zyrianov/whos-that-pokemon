@@ -15,7 +15,6 @@ export default {
    h1{
       color: #fff;
       text-align: center;
-      margin-top: 300px;
    }
 
    .container-gameover{

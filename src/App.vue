@@ -22,11 +22,14 @@
     <div v-else>
       <GameOver @restart-game="restartGame" />
     </div>
+
+    <FooterApp />
   </div>
 
   <div class="container" v-else>
     <HeaderApp />
     <StartGame @start-game="startGame"/>
+    <FooterApp />
   </div>
 
 </template>
@@ -39,6 +42,7 @@ import InputPokemon from '../src/components/InputPokemon.vue'
 import GameOver from '../src/components/GameOver.vue'
 import ButtonNext from '../src/components/ButtonNext.vue'
 import StartGame from '../src/components/StartGame.vue'
+import FooterApp from '../src/components/FooterApp.vue'
 
 export default {
   name: 'App',
@@ -50,6 +54,7 @@ export default {
     GameOver,
     ButtonNext,
     StartGame,
+    FooterApp
   },
   data(){
     return{
@@ -147,8 +152,7 @@ export default {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 
 </style>

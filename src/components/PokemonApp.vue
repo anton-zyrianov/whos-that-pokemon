@@ -41,7 +41,29 @@ export default {
       max-width: 300px;
       image-rendering: pixelated;
       /* border-radius: 100%; */
-      /* animation: move 2s linear infinite; */
+      animation: movement 2s linear infinite;
+   }
+
+   @keyframes movement{
+      0% {
+         transform: translateY(0);  
+      }
+      
+      25% {
+         transform: translateY(-5px);
+      }
+
+      50% {
+         transform: translateY(0);
+      }
+
+      75% {
+         transform: translateY(5px);
+      }
+
+      100% {
+         transform: translateY(0);
+      }
    }
 
    @media only screen and (max-width: 747px){
